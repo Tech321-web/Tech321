@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Website Konten</title>
+    <style>
+       h2{
+         text-align:center;
+       }
+        .contact {
+            padding: 20px;
+        }
+
+        .contact-form {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        .contact-form label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        .contact-form input, 
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+        }
+
+        .contact-form .back-button {
+            background-color: #808080;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+            justify-content: space-between;
+            margin-top: 15px;              
+        }
+    .back-button a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            
+          background-color: #808080;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="contact" class="content contact">
+        <h2>Hubungi Kami</h2>
+        <div class="contact-form">
+            <form action="#" method="post">
+                <label for="keluhan">Keluhan:</label>
+                <textarea id="keluhan" name="keluhan" rows="4" required></textarea>
+
+                <label for="no-telp">Nomor Telepon:</label>
+                <input type="tel" id="no-telp" name="no-telp" required>
+
+                <label for="email">Alamat Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="konfirmasi-email">Konfirmasi Alamat Email:</label>
+                <input type="email" id="konfirmasi-email" name="konfirmasi-email" required>
+              
+                <div class="back-button">
+                <a href="layout berita.html">Kembali</a>
+                </div>    
+            </form>
+        </div>
+    </div>
+</body>
+</html>

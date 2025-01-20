@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Website Konten</title>
+    <style>
+        h2{
+          text-align: center;
+        }
+        .service {
+            padding: 20px;
+        }
+        .service-form {
+            max-width: 400px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .service-form label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        .service-form input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+        }
+
+        .service-form button {
+            margin-right: 10px; 
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+          width: 100%;
+        }
+
+        .back-button {
+            margin-top: 15px;
+            background-color: #808080;
+            display: flex;
+            justify-content: space-between;
+          text-align:center;
+        }
+
+        .back-button a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            display: inline-block;
+          background-color: #808080;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="service" class="content service">
+        <h2>Layanan Akun</h2>
+        <div class="service-form">
+            <form action="#" method="post">
+                <label for="register-username">Username:</label>
+                <input type="text" id="register-username" name="register-username" required>
+
+                <label for="register-password">Password:</label>
+                <input type="password" id="register-password" name="register-password" required>
+
+                <label for="confirm-register-password">Konfirmasi Password:</label>
+                <input type="password" id="confirm-register-password" name="confirm-register-password" required>
+
+                <button type="submit">Daftar Akun</button>
+            </form>
+          <p>Atau</p>
+            
+            <form action="#" method="post">
+
+                <button type="submit">Masuk</button>
+            </form>
+          <p>Lupa password?</p>
+                <form action="#" method="post">
+
+                <button type="submit">Reset Password</button>
+            </form>
+        </div>
+        <div class="back-button">
+            <a href="layout berita.html">Kembali</a>
+        </div>
+    </div>
+</body>
+</html>

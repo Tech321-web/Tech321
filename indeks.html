@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Kumpulan Berita</title>
+  <style>
+  body{
+  background: #eaeaea;
+  background-image: url(bg2.jpg)
+  font: 16/28px arial, san-serif;
+  background-size: cover;
+}
+.container{
+  width: 960px;
+  background-color: white;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  flex-wrap: wrap;
+  
+}
+.header{
+  padding: 20px;
+}
+.header .judul{
+  font-size: 40px;
+  color: red;
+  font-weight: bold;
+}
+.header ul li{
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+.header a{
+  text-decoration: none;
+  border: 2px solid salmon;
+  padding: 5px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-family: arial;
+}
+header, a:hover{
+  background: lightskyblue;
+  color: white;
+}
+.hero{
+  height: 400px;
+  background-size: cover;
+  background-image: url(bg.jpg);
+  background-position: 0 -50px;
+  border-top: 3px solid salmon;
+  border-bottom: 3px solid skyblue;
+}
+.content{
+  display: flex;
+}
+.main{
+  width: 600px;
+  padding: 20px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #ccc;
+}
+.main h2{
+  font-weight: bold;
+  font-size: 28px;
+}
+.main .penulis{
+  font-size: 11px;
+  text-decoration: none;
+}
+.main a:hover{
+  font-style: italic;
+  font-weight: bold;
+}
+.main p{
+  margin-bottom: 20px;
+  font-size: 14px;
+  text-align: justify;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: webkit-box;
+  webkit-line-clamp: 5;
+  webkit-box-orient: vertical;
+  border-bottom: 1px solid #ccc; 
+  padding-bottom: 10px;
+}
+.sidebar{
+  width: 300px;
+  padding: 20px;
+}
+.sidebar h3{
+  font-weight: bold;
+  padding-bottom: 8px;
+}
+.sidebar img{
+  width: 80px;
+  float: left;
+  padding-right: 10px;
+  opacity: 0.2;
+}
+.sidebar img:hover{
+  opacity: 1;
+}
+.sidebar p{
+  text-align: justify;
+  font-size: 12px;
+}
+.footer{
+  background: lightskyblue;
+  padding: 10px;
+  border-top: 3px solid salmon;
+  margin-top: auto;
+}
+.footer .copy{
+  text-align: center;
+  font-size: 12px;
+  margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+}
+.footer a:hover{
+  color: white;
+  text-decoration: none;
+}
+
+  </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <marquee direction="left"><h1 class="judul">Selamat Datang Di Website Susanto</h1>
+        </marquee>
+        <ul>
+          <li><a href="layout berita.html">HOME</a></li>
+          <li><a href="galeri.html">GALERI</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+          <li><a href="service.html">SERVICE</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+        </ul>
+      </div>
+      <div class="hero"></div>
+      <div class="content cf">
+        <div class="main">
+<body>
+  <h1>
+    Berita Hari Ini
+  </h1>
+  <hr>
+  <article>
+  <h2><a href="layout berita.html">Zaman Tiga Kerajaan 'Penghujung Dinasti Han'</a></h2>
+   </div>
+</article>
+        <div class="sidebar">
+          <h3>Tentang Penulis</h3>
+          <img src="susanto.png" alt="susanto">
+          <p>Susanto adalah murid SMKS Hosana Tebas yang sekarang,
+            sedang duduk di bangku kelas 12 SMK dari Jurusan Teknik 
+            Komputer dan Jaringan.
+            Selamat membaca, semoga isinya menarik dan membantu kita 
+            untuk saling menuangkan ide-ide yang kreatif supaya
+            saling berkembang.</p>
+        </div>
+      </div>
+  <div class="footer">
+        <p class="copy">Copyright 2024
+        <a href="#">@SMKS HOSANA TEBAS</a></p>
+      </div>
+    </div>
+</body>
+</html>
